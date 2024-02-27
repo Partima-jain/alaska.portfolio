@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alaska's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Experience</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Educator</p>
+            <h1>Hi, I'm <span>Alaska</span></h1>
+        </div>
+    </div>
+</div>
+<!------------------about------------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>As an experienced educator, I am seeking a position that will fully utilize my training skills and abilities in an
+                    organization that values professional growth and innovation. My goal is to carve a niche for myself in the global
+                    map of cut-throat competition and ever-changing commercial scenario, while thriving in a fast-paced, change-
+                    oriented work environment. I am passionate about inspiring and motivating students to reach their full
+                    potential and would like to contribute to an organization that values initiative, enthusiasm, and leadership in
+                    the field of education.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onmouseover="opentab('skills')">Skills</p>
+                    <p class="tab-links" onmouseover="opentab('experience')">Experience</p>
+                    <p class="tab-links" onmouseover="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Managing</span><br>Sales Manager <br> Relationship Manager - Wealth Management <br> Marketing Manager</li>
+                        <li><span>Traning</span><br>HR Recruiter and Personality Development Trainer<br>IELTS Trainer <br>Soft Skills Trainer</li>
+                        <li><span>Head</span><br>Admin Head</li>
+                        <li><span>Leading</span><br>Team Leader</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Team Leader - Soft Skills</span><br>Chandigarh Group of Colleges, Jhanjeri (October 2021 - Present)</li>
+                        <li><span>HR Recruiter and Personality Development Trainer</span><br>Chinar Global Academy (Dubai) (April 2021 - August
+                            2021)</li>
+                        <li><span>IELTS Trainer</span><br> Helium Academy (March 2020 - February 2021)</li>
+                        <li><span>Soft Skills Trainer</span><br> Chandigarh University (July 2018 - May 2019)</li>
+                        <li><span>Admin Head</span><br> Helium Academy (March 2020 - February 2021)</li>
+                        <li><span> Sales Manager</span><br> Real Roots (Realty) (January 2015 - May 2016))</li>
+                        <li><span>Relationship Manager - Wealth Management</span><br> Aditya Birla Money Mart, Chandigarh (May 2014 - December 2014)</li>
+                        <li><span>Marketing Manager</span><br> YOUR SPACE SOLUTIONS (Real Estate) (January 2012 - April 2014)</li>
+                        <li><span>Manager, P.S.E.B School</span><br> Pathankot (May 2011 - December 2012)</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2015-2017</span><br>MBA from Sikkim Manipal University,(S.M.U) </li>
+                        <li><span>2008-2011</span><br>BBA from A.B College, Pathankot(G.N.D.U) </li>
+                        <li><span>2008</span><br>12th from M.D.K School, Pathankot(C.B.S.E)</li>
+                        <li><span>2006</span><br>Matriculation from Army School, Pathankot(C.B.S.E)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------------------Services---------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Soft Skills Leadership Development:</h2>
+                <p></p>
+                <a href="https://en.wikipedia.org/wiki/Soft_skills">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>HR Recruitment and Training Solutions:</h2>
+                <p></p>
+                <a href="https://en.wikipedia.org/wiki/Recruitment">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>IELTS Training Excellence:</h2>
+                <p></p>
+                <a href="https://en.wikipedia.org/wiki/International_English_Language_Testing_System">Learn more</a>
+            </div>
+        </div>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Placement Preparation and Event Management:</h2>
+                <p></p>
+                <a href="https://en.wikipedia.org/wiki/Event_management">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Educational Administration and Tour Planning:</h2>
+                <p></p>
+                <a href="https://en.wikipedia.org/wiki/Educational_management">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Sales and Marketing Leadership:</h2>
+                <p></p>
+                <a href="https://en.wikipedia.org/wiki/Sales_%26_Marketing_Executives_International">Learn more</a>
+            </div>
+        </div>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Wealth Management and Client Relations:</h2>
+                <p></p>
+                <a href="https://en.wikipedia.org/wiki/Wealth_management">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Real Estate Marketing and Administration:</h2>
+                <p></p>
+                <a href="https://en.wikipedia.org/wiki/Real_estate">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>School Management and English Education:</h2>
+                <p></p>
+                <a href="https://en.wikipedia.org/wiki/Educational_management">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------Portfolio--------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My project</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work1.png">
+                <div class="layer">
+                    <h3>Currency convertor</h3>
+                    <p> Currencies are converted using an exchange rate. This rate is the relative price of two currencies.Source code here <i class="fa-solid fa-arrow-turn-down"></i></p>
+                    <a href="https://github.com/Partima-jain/currency-converter"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work2.png">
+                <div class="layer">
+                    <h3>Voice Assistant</h3>
+                    <p>With the use of voice assistants, we can automate the task easily, just give the input to the machine in the speech form and all the tasks will be done by it.Source code here <i class="fa-solid fa-arrow-turn-down"></i></p>
+                    <a href="https://github.com/Partima-jain/Voice-Assistant"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work3.png">
+                <div class="layer">
+                    <h3>Tic Tac Toe</h3>
+                    <p>Tic Tac Toe is a popular two-player game that can be implemented using JavaScript.Source code here <i class="fa-solid fa-arrow-turn-down"></i></p>
+                    <a href="https://github.com/Partima-jain/Tic-tac-toe"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+    </div>
+    <div class="work-list">
+            <div class="work">
+                <img src="work4.png">
+                <div class="layer">
+                    <h3>CSS Based Amazon Clone</h3>
+                    <p>Amazon Clone : A web-based mockup inspired by Amazon's design. This project showcases HTML and CSS skills.Source code here <i class="fa-solid fa-arrow-turn-down"></i></p>
+                    <a href="https://github.com/Partima-jain/css-based-Amazon-clone"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work5.png">
+                <div class="layer">
+                    <h3>Weather App</h3>
+                    <p> The Weather App Development in Python is a simple application that provides weather information for a specified city.Source code here <i class="fa-solid fa-arrow-turn-down"></i></p>
+                    <a href="https://github.com/Partima-jain/Weather-App"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work6.png">
+                <div class="layer">
+                    <h3>Internet Speed Calculator </h3>
+                    <p> We can create a Python application using the pyspeedtest library to assess and evaluate the efficiency of our internet connection. Source code here <i class="fa-solid fa-arrow-turn-down"></i></p>
+                    <a href="https://github.com/Partima-jain/Internet_speed_calculator"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>            
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-------------------------Contact--------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>alaskaraj90@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91-6283037652</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/alaska-raj-63b27588?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/the_english_language88?igsh=cmN4NW5vYnRpc3l1&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+                    
+                </div>
+                <a href="https://drive.google.com/file/d/1DUhRQgBQnDGxxs2VBWkI8__ddVq5wjYX/view?usp=drivesdk" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">Copyright ©. Made with <i class="fa-solid fa-heart"></i></div>
+</div>
+<script src="script.js"></script>
+<script src="script1.js"></script>
+</body>
+</html>
